@@ -2,6 +2,7 @@
 
 header {
 	position: relative;
+	
 }
 
 header h1 {
@@ -9,11 +10,19 @@ header h1 {
 	left: 48px;
 	bottom: 0;
 	font-size: 2em;
+	color: white;
 
 }
 
+:root {
+	background-image: url(../img/green_cup.png);
+	background-repeat: repeat;
+	
+}
+
 .panel.callout {
-	background-color: #a61412;
+	background-color: #0c610c;
+	border-radius: 20px;
 }
 
 .tabs-content {
@@ -22,6 +31,13 @@ header h1 {
 	padding: 10px;
 }
 
-.reveal-modal-bg {
-	background-color: cornflowerblue;
+dd {
+	border: 1px solid #000;
+	border-bottom: none;
+
 }
+
+
+/*.reveal-modal-bg {
+	background-color: cornflowerblue;
+}*/
